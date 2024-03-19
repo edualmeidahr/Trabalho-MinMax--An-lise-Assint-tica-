@@ -1,16 +1,8 @@
-
-#include <iostream>
-#include <vector>
-#include <random>
-#include <ctime>
-#include <algorithm>
+#include "MinMax.hpp"
 
 using namespace std;
-#define tamanhovetor 1000
 
-void minMax1(int max, int min, vector<int> vetor)
-{
-    //pegar tempo inicial aqui
+void MinMax :: minMax1(int min, int max, vector <int> vetor) {
     clock_t inicio, fim;
     inicio = clock();
     max = vetor[0];
@@ -26,18 +18,15 @@ void minMax1(int max, int min, vector<int> vetor)
             min = vetor[i];
         }
     }
-    //pegar tempo final aqui
     fim = clock() - inicio;
-    cout << "MinMax1: ";
-    cout << "Tempo de execução: " << ((float)fim)/CLOCKS_PER_SEC << " segundos" << endl;
+    cout << "MinMax1: Tempo de execução: " << fixed << setprecision(6) << ((float)fim) / CLOCKS_PER_SEC << " segundos" << endl;
 }
 
-void minMax2(int max, int min, vector<int> vetor)
-{
+void MinMax :: minMax2(int min, int max, vector <int> vetor){
     clock_t inicio, fim;
     inicio = clock();
-     max = vetor[0];
-     min = vetor[0];
+    max = vetor[0];
+    min = vetor[0];
     for (int i = 1; i < vetor.size(); i++)
     {
         if (vetor[i] > max)
@@ -50,13 +39,13 @@ void minMax2(int max, int min, vector<int> vetor)
         }
     }
     fim = clock() - inicio;
-    cout << "MinMax2: ";
-    cout << "Tempo de execução: " << ((float)fim)/CLOCKS_PER_SEC << " segundos" << endl;
+    cout << "MinMax2: Tempo de execução: " << fixed << setprecision(6) << ((float)fim) / CLOCKS_PER_SEC << " segundos" << endl;
 }
 
-void minMax3(int max, int min, vector<int> vetor)
+void MinMax :: minMax3(int max, int min, vector<int> vetor)
 {
     clock_t inicio, fim;
+    inicio = clock();
     int FimDoAnel;
     if (vetor.size() % 2 != 0)
     {
@@ -101,39 +90,6 @@ void minMax3(int max, int min, vector<int> vetor)
         i += 2;
     }
     fim = clock() - inicio;
-    cout << "MinMax3: ";
-    cout << "Tempo de execução: " << ((float)fim)/CLOCKS_PER_SEC << " segundos" << endl << endl;
+    cout << "MinMax3: Tempo de execução: " << fixed << setprecision(6) << ((float)fim) / CLOCKS_PER_SEC << " segundos" << endl;  
 }
-
-int main()
-{
-    vector<int> vetor;
-    int max, min;
-    for (int i = 0; i < tamanhovetor; i++)
-    {
-        vetor.push_back(rand() % 1000);
-    }
-    //Testanto vetor randomico
-    cout << "Testando vetor randomico" << endl << endl;
-    minMax1(max, min, vetor);
-    minMax2(max, min, vetor);
-    minMax3(max, min, vetor);
     
-    //Testanto vetor ordenado
-    cout << "Testando vetor ordenado" << endl << endl;
-    sort(vetor.begin(), vetor.end());
-    minMax1(max, min, vetor);
-    minMax2(max, min, vetor);
-    minMax3(max, min, vetor);
-
-    //Testanto vetor ordenado inversamente
-    cout << "Testando vetor ordenado inversamente" << endl << endl;
-    reverse(vetor.begin(), vetor.end());
-    minMax1(max, min, vetor);
-    minMax2(max, min, vetor);
-    minMax3(max, min, vetor);
-
-
-
-    return 0;
-}
