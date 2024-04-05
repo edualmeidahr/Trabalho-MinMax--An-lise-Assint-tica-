@@ -34,7 +34,10 @@
 </p>
 
 ## Objetivos
+<>
+    <p align="justify"> 
     O principal objetivo é ter uma compreensão mais aprofundada nas diferentes implementações do algoritmo MinMax, e principalmente como elas se comportam em diferentes cenários de entrada.
+</p>
 
 ## Problema apresentado
 <strong><h4>Instruções:</h4></strong>
@@ -61,7 +64,7 @@
 <div align="center" style="display: flex; justify-content: center;">
     <img src="img/MinMax1.png" alt="MinMax1">
     <img src="img/MinMax2.png" alt="MinMax2">
-    <img src="img/MinMax3.png" alt="MinMax3">
+    <img src="img/MInMax3.png" alt="MinMax3">
 </div>
 
 ## 📄 Arquivos
