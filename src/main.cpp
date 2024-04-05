@@ -2,9 +2,10 @@
 #include "MinMax.hpp"
 #include <vector>
 #include <random>
+#include <fstream>
 
 using namespace std;
-#define tamanhovetor 1000
+#define tamanhovetor 500000
 
 
 int main()
@@ -12,30 +13,45 @@ int main()
     MinMax minMax;
     vector<int> vetor;
     int max, min;
-
-    srand(time(nullptr));
-
-    for (int i = 0; i < tamanhovetor; i++)
+    ofstream outFile;
+    outFile.open("database/data.txt",ios::app);
+    if (!outFile.is_open())
     {
-        vetor.push_back(rand() % tamanhovetor);
+        cout << "Erro ao abrir o arquivo" << endl;
+        return 1;
     }
 
-    cout << "Vetor randômico" << endl;
-    minMax.minMax1(max, min, vetor);
-    minMax.minMax2(max, min, vetor);
-    minMax.minMax3(max, min, vetor);
+    srand(time(nullptr));
+    
+      for (int i = 0; i < tamanhovetor; i++)
+    {
+        vetor.push_back(rand() % 1000);
+    }
+   
+    vector <int> v = vetor;
+    for (int i = 0; i < 10; i++){
+    
+    vetor = v;
+
+    outFile << endl << "Execução " << i+1 << endl;
+    outFile << "Vetor randômico" << endl;
+    minMax.minMax1(max, min, vetor, outFile);
+    minMax.minMax2(max, min, vetor, outFile);
+    minMax.minMax3(max, min, vetor, outFile);
 
     sort(vetor.begin(), vetor.end());
-    cout << "\n Vetor crescente" << endl;
-    minMax.minMax1(max, min, vetor);
-    minMax.minMax2(max, min, vetor);
-    minMax.minMax3(max, min, vetor);
+    outFile << "\n Vetor crescente" << endl;
+    minMax.minMax1(max, min, vetor, outFile);
+    minMax.minMax2(max, min, vetor, outFile);
+    minMax.minMax3(max, min, vetor, outFile);
 
     reverse(vetor.begin(), vetor.end());
-    cout << "\n Vetor decrescente" << endl;
-    minMax.minMax1(max, min, vetor);
-    minMax.minMax2(max, min, vetor);
-    minMax.minMax3(max, min, vetor);
+    outFile << "\n Vetor decrescente" << endl;
+    minMax.minMax1(max, min, vetor, outFile);
+    minMax.minMax2(max, min, vetor, outFile);
+    minMax.minMax3(max, min, vetor, outFile);
+   }
+    outFile.close();
 
     return 0;
 }

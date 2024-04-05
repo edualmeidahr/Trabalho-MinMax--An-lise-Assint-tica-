@@ -5,15 +5,16 @@
 #include <ctime>
 #include <algorithm>
 #include <iomanip>
+#include <fstream>
 
 using namespace std;
 
 
 class MinMax {
 public:
-void minMax1(int min, int max, vector <int> vetor);
-void minMax2(int min, int max, vector <int> vetor);
-void minMax3(int min, int max, vector <int> vetor);
+void minMax1(int min, int max, vector <int> vetor, ofstream& outFile);
+void minMax2(int min, int max, vector <int> vetor, ofstream& outFile);
+void minMax3(int min, int max, vector <int> vetor, ofstream& outFile);
 
 };
 #endif

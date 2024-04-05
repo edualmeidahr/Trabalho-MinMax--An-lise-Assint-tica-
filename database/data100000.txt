@@ -1,0 +1,160 @@
+
+Execução 1
+Vetor randômico
+MinMax1: Tempo de execução: 0.000506 segundos
+MinMax2: Tempo de execução: 0.000402 segundos
+MinMax3: Tempo de execução: 0.000856 segundos
+
+ Vetor crescente
+MinMax1: Tempo de execução: 0.000478 segundos
+MinMax2: Tempo de execução: 0.000406 segundos
+MinMax3: Tempo de execução: 0.000302 segundos
+
+ Vetor decrescente
+MinMax1: Tempo de execução: 0.000477 segundos
+MinMax2: Tempo de execução: 0.000406 segundos
+MinMax3: Tempo de execução: 0.000302 segundos
+
+Execução 2
+Vetor randômico
+MinMax1: Tempo de execução: 0.000542 segundos
+MinMax2: Tempo de execução: 0.000393 segundos
+MinMax3: Tempo de execução: 0.000540 segundos
+
+ Vetor crescente
+MinMax1: Tempo de execução: 0.000473 segundos
+MinMax2: Tempo de execução: 0.000405 segundos
+MinMax3: Tempo de execução: 0.000312 segundos
+
+ Vetor decrescente
+MinMax1: Tempo de execução: 0.000474 segundos
+MinMax2: Tempo de execução: 0.000406 segundos
+MinMax3: Tempo de execução: 0.000302 segundos
+
+Execução 3
+Vetor randômico
+MinMax1: Tempo de execução: 0.000462 segundos
+MinMax2: Tempo de execução: 0.000397 segundos
+MinMax3: Tempo de execução: 0.000536 segundos
+
+ Vetor crescente
+MinMax1: Tempo de execução: 0.000476 segundos
+MinMax2: Tempo de execução: 0.000405 segundos
+MinMax3: Tempo de execução: 0.000306 segundos
+
+ Vetor decrescente
+MinMax1: Tempo de execução: 0.000473 segundos
+MinMax2: Tempo de execução: 0.000407 segundos
+MinMax3: Tempo de execução: 0.000313 segundos
+
+Execução 4
+Vetor randômico
+MinMax1: Tempo de execução: 0.000462 segundos
+MinMax2: Tempo de execução: 0.000393 segundos
+MinMax3: Tempo de execução: 0.000602 segundos
+
+ Vetor crescente
+MinMax1: Tempo de execução: 0.000597 segundos
+MinMax2: Tempo de execução: 0.000405 segundos
+MinMax3: Tempo de execução: 0.000319 segundos
+
+ Vetor decrescente
+MinMax1: Tempo de execução: 0.000477 segundos
+MinMax2: Tempo de execução: 0.000430 segundos
+MinMax3: Tempo de execução: 0.000301 segundos
+
+Execução 5
+Vetor randômico
+MinMax1: Tempo de execução: 0.000462 segundos
+MinMax2: Tempo de execução: 0.000394 segundos
+MinMax3: Tempo de execução: 0.000539 segundos
+
+ Vetor crescente
+MinMax1: Tempo de execução: 0.000473 segundos
+MinMax2: Tempo de execução: 0.000405 segundos
+MinMax3: Tempo de execução: 0.000302 segundos
+
+ Vetor decrescente
+MinMax1: Tempo de execução: 0.000475 segundos
+MinMax2: Tempo de execução: 0.000406 segundos
+MinMax3: Tempo de execução: 0.000315 segundos
+
+Execução 6
+Vetor randômico
+MinMax1: Tempo de execução: 0.000462 segundos
+MinMax2: Tempo de execução: 0.000396 segundos
+MinMax3: Tempo de execução: 0.000536 segundos
+
+ Vetor crescente
+MinMax1: Tempo de execução: 0.000473 segundos
+MinMax2: Tempo de execução: 0.000418 segundos
+MinMax3: Tempo de execução: 0.000302 segundos
+
+ Vetor decrescente
+MinMax1: Tempo de execução: 0.000472 segundos
+MinMax2: Tempo de execução: 0.000409 segundos
+MinMax3: Tempo de execução: 0.000301 segundos
+
+Execução 7
+Vetor randômico
+MinMax1: Tempo de execução: 0.000462 segundos
+MinMax2: Tempo de execução: 0.000394 segundos
+MinMax3: Tempo de execução: 0.000546 segundos
+
+ Vetor crescente
+MinMax1: Tempo de execução: 0.000496 segundos
+MinMax2: Tempo de execução: 0.000421 segundos
+MinMax3: Tempo de execução: 0.000313 segundos
+
+ Vetor decrescente
+MinMax1: Tempo de execução: 0.000473 segundos
+MinMax2: Tempo de execução: 0.000439 segundos
+MinMax3: Tempo de execução: 0.000312 segundos
+
+Execução 8
+Vetor randômico
+MinMax1: Tempo de execução: 0.000465 segundos
+MinMax2: Tempo de execução: 0.000393 segundos
+MinMax3: Tempo de execução: 0.000536 segundos
+
+ Vetor crescente
+MinMax1: Tempo de execução: 0.000473 segundos
+MinMax2: Tempo de execução: 0.000409 segundos
+MinMax3: Tempo de execução: 0.000302 segundos
+
+ Vetor decrescente
+MinMax1: Tempo de execução: 0.000473 segundos
+MinMax2: Tempo de execução: 0.000408 segundos
+MinMax3: Tempo de execução: 0.000302 segundos
+
+Execução 9
+Vetor randômico
+MinMax1: Tempo de execução: 0.000471 segundos
+MinMax2: Tempo de execução: 0.000394 segundos
+MinMax3: Tempo de execução: 0.000538 segundos
+
+ Vetor crescente
+MinMax1: Tempo de execução: 0.000473 segundos
+MinMax2: Tempo de execução: 0.000405 segundos
+MinMax3: Tempo de execução: 0.000302 segundos
+
+ Vetor decrescente
+MinMax1: Tempo de execução: 0.000473 segundos
+MinMax2: Tempo de execução: 0.000409 segundos
+MinMax3: Tempo de execução: 0.000301 segundos
+
+Execução 10
+Vetor randômico
+MinMax1: Tempo de execução: 0.000462 segundos
+MinMax2: Tempo de execução: 0.000404 segundos
+MinMax3: Tempo de execução: 0.000535 segundos
+
+ Vetor crescente
+MinMax1: Tempo de execução: 0.000484 segundos
+MinMax2: Tempo de execução: 0.000418 segundos
+MinMax3: Tempo de execução: 0.000302 segundos
+
+ Vetor decrescente
+MinMax1: Tempo de execução: 0.000473 segundos
+MinMax2: Tempo de execução: 0.000423 segundos
+MinMax3: Tempo de execução: 0.000302 segundos

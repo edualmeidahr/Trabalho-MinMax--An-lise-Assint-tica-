@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void MinMax :: minMax1(int min, int max, vector <int> vetor) {
+void MinMax :: minMax1(int min, int max, vector <int> vetor, ofstream& outFile) {
     clock_t inicio, fim;
     inicio = clock();
     max = vetor[0];
@@ -19,10 +19,10 @@ void MinMax :: minMax1(int min, int max, vector <int> vetor) {
         }
     }
     fim = clock() - inicio;
-    cout << "MinMax1: Tempo de execução: " << fixed << setprecision(6) << ((float)fim) / CLOCKS_PER_SEC << " segundos" << endl;
+    outFile << "MinMax1: Tempo de execução: " << fixed << setprecision(6) << ((float)fim) / CLOCKS_PER_SEC << " segundos" << endl;
 }
 
-void MinMax :: minMax2(int min, int max, vector <int> vetor){
+void MinMax :: minMax2(int min, int max, vector <int> vetor, ofstream& outFile){
     clock_t inicio, fim;
     inicio = clock();
     max = vetor[0];
@@ -39,10 +39,10 @@ void MinMax :: minMax2(int min, int max, vector <int> vetor){
         }
     }
     fim = clock() - inicio;
-    cout << "MinMax2: Tempo de execução: " << fixed << setprecision(6) << ((float)fim) / CLOCKS_PER_SEC << " segundos" << endl;
+    outFile << "MinMax2: Tempo de execução: " << fixed << setprecision(6) << ((float)fim) / CLOCKS_PER_SEC << " segundos" << endl;
 }
 
-void MinMax :: minMax3(int max, int min, vector<int> vetor)
+void MinMax :: minMax3(int max, int min, vector<int> vetor, ofstream& outFile)
 {
     clock_t inicio, fim;
     inicio = clock();
@@ -90,6 +90,6 @@ void MinMax :: minMax3(int max, int min, vector<int> vetor)
         i += 2;
     }
     fim = clock() - inicio;
-    cout << "MinMax3: Tempo de execução: " << fixed << setprecision(6) << ((float)fim) / CLOCKS_PER_SEC << " segundos" << endl;  
+    outFile << "MinMax3: Tempo de execução: " << fixed << setprecision(6) << ((float)fim) / CLOCKS_PER_SEC << " segundos" << endl;  
 }
     
