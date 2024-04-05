@@ -1,6 +1,6 @@
 # Configurações do gráfico
 set terminal png
-set output 'grafico_crescente.png'
+set output 'grafico_MinMax.png'
 
 set title "Tamanho em Função do Tempo"
 set xlabel "Tempo (segundos)"
@@ -16,7 +16,7 @@ set yrange [0:550000]
 set object 1 rectangle from graph 0,0 to graph 1,1 behind fillcolor rgb "white" fillstyle solid noborder
 
 # Definindo as linhas de plotagem
-plot 'dados.csv' using 2:1 with lines title "MinMax 1" linewidth 2,\
+plot 'data.csv' using 2:1 with lines title "MinMax 1" linewidth 2,\
      '' using 3:1 with lines title "MinMax 2" linewidth 2,\
      '' using 4:1 with lines title "MinMax 3" linewidth 2
 
