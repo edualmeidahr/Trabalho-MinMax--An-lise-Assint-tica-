@@ -128,22 +128,22 @@ Para uma boa análise eu criei gráficos que contêm os 3 MinMax's, em alguns ce
 Este primeiro gráfico mostra uma média geral de todas as entradas e todos os tipos de ordenação do vetor. Nele é visível que no geral o MiMax3 é o algoritmo que tem o melhor desempenho, seguido do MinMax2 e por último o MinMax1. Contudo, em alguns pontos do gráfico o MinMax3 se apresenta sendo o pior, o que ainda veremos ser o caso quando temos vetor ordenado aleatoriamente.
 
 - **Todas as médias com zoom nas entradas 1.000 e 10.000**
-<img src="Graphics/grafico_MinMax_ate10000.png" width="200px">
+<img src="Graphics/grafico_MinMax_ate10000.png" width="500px">
 
 O mesmo gráfico que o comentado acima, porém com um maior zoom e foco nas entradas menores. Analisando-o, fica ainda mais evidente e confirma o comentário do gráfico acima.
 
 - **Médias com vetor randomico**
-<img src="Graphics/grafico_rand.png" width="200px">
+<img src="Graphics/grafico_rand.png" width="500px">
 
 Aqui tem-se um gráfico considerando-se apenas o caso do vetor ordenado de forma aleatória. Como observado no primeiro gráfico, que o MinMax3 se comporta o pior em alguns casos, nesse gráfico conseguimos confirmar isso. Sendo ele o pior, enquanto o MinMax2 é o melhor desempenho e o MinMax1, o caso intermdiário.
 
 - **Médias com vetor crescente**
-<img src="Graphics/grafico_crescente.png" width="200px">
+<img src="Graphics/grafico_crescente.png" width="500px">
 
 Com o vetor crescente, o comportamento esperado e os melhores desempenhos são respectivamente: MinMax3, MinMax2, MinMax1.
 
 - **Médias com vetor decrescente**
-<img src="Graphics/grafico_decrescente.png" width="200px">
+<img src="Graphics/grafico_decrescente.png" width="500px">
 
 Com o vetor decrescente, o comportamento segue bastante parecido com ele crescente, respeitando o resultado esperado e tendo uma diferença maior ainda entre os tempos. Respectivamente, os melhores desempenhos se mantêm: MinMax3, MinMax2, MinMax1
 
