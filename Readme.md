@@ -76,16 +76,16 @@
     Segue a implementação de cada uma das funções em C++:
 
 
-    <img src="img/MinMax1_implementation.png" alt="MinMax1" width="500px">
-    <img src="img/MinMax2_implementation.png" alt="MinMax2" width="500px">
-    <img src="img/MinMax3_implementation.png" alt="MinMax3" width="500px">
+    <img src="img/MinMax1_implementation.png" alt="MinMax1" width="600px">
+    <img src="img/MinMax2_implementation.png" alt="MinMax2" width="600px">
+    <img src="img/MinMax3_implementation.png" alt="MinMax3" width="600px">
 
 Foram feitas pequenas modificações, como receber o endereço de memória do arquivo de saída como parâmetro, e o uso da função clock para retornar o tempo de execução.
 
 - **Execução:**
     Ao executar o programa ele calcula o tempo gasto pelas funções 10 vezes, e isso é escrito direto em um arquivo .txt:
     
-    <img src="img/arquivo_txt.png" align="center" width="200px">
+    <img src="img/arquivo_txt.png" align="center" width="300px">
 
     E como são 4 tamanhos diferentes de entrada, também serão 4 arquivos desse, um para cada tamanho.
 
