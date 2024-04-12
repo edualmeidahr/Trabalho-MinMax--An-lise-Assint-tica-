@@ -1,4 +1,4 @@
-<h1 align="center"><b>Trabalho JOGO DA VIDA</b></h1>
+<h1 align="center"><b>Trabalho Análise Assintótica</b></h1>
 
 <div align="center">
 <!-- imagem -->
@@ -159,7 +159,17 @@ Para uma boa análise eu criei gráficos que contém os 3 MinMax's, em alguns ce
 
 
 ## ✔️ Conclusão
-Ao final desse projeto, temos que o objetivo foi alcançado, uma vez que foram usados vários conceitos vistos anteriormente no curso, como manipulação de matrizes e de arquivos. Sobre o jogo em si, foi notável que é um jogo muito interessante e, apesar de suas regras simples, é capaz de gerar padrões surpreendentemente complexos e até mesmo simular fenômenos semelhantes aos observados na vida real, como a formação de estruturas estáveis, osciladores e espaçonaves.
+    Considerando-se todas as análise feitas a cima, em relação aos três algoritmos, podemos apontar alguns aspectos que merecem uma atenção.
+
+    Por mais que os algoritmos tenham sido executados em um mesmo ambiente e máquina, fica evidente que desapontando a teoria, ao executados mais de uma vez, eles nunca terão o mesmo tempo como resposta, e isso deve a várias variáveis, como o próprio Sistema Operacional (SO), condições climáticas ou condições físicas da máquina em geral.
+
+
+    Também é interessante concluir que esse é um projeto para analisar o desempenho de cada algoritmo e compará-los, mas não apenas para dizer qual é o melhor, pois isso dependeria de mais fatores do que somente esses. Mesmo o MinMax3 sendo melhor na maior parte dos casos, a diferença de tempo se encontra na casa de microsegundos, ou até menos dependendo do tamanho da entrada. Ou seja, talvez por sua maior complexidade do que o MinMax1, por exemplo, que tem uma implementação super simples, pode ser usá-lo não seja o mais viável.
+
+    Contudo, o MinMax3 foi o algoritmo com melhor desempenho nos dois primeiros métodos de ordenação: crescente e decrescente, o MinMax2 o melhor para o caso de vetor aleatório e no geral o MinMax1 se apresentou como o pior.  Ou seja, o método com o qual o vetor foi ordenado teve papel fundamental no resultado, com algortimos que podem ser o melhor numa situação e o pior em outra.
+    
+    
+    
 
 ## 👾 Compilação e execução
 * Especificações da máquina em que o código foi rodado:
