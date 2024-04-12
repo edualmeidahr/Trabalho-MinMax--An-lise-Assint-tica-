@@ -94,7 +94,7 @@ Foram feitas pequenas modificações, como receber o endereço de memória do ar
 
 - **Script Geral do gnuplot:**
 
-<img src="img/scrip_gnuplot.png" width="200px">
+<img src="img/scrip_gnuplot.png" width="400px">
 
 Padrão do script utilizado para a criação dos gráficos, fazendo apenas pequenas alterações de um para outro, como por exemplo o tamanho da entrada ou título.
 
