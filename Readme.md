@@ -133,7 +133,7 @@ Este primeiro gráfico mostra uma média geral de todas as entradas e todos os t
 O mesmo gráfico que o comentado acima, porém com um maior zoom e foco nas entradas menores. Analisando-o, fica ainda mais evidente e confirma o comentário do gráfico acima.
 
 - **Médias com vetor randomico**
-<img src="Graphics/grafico_rand.png">
+<img src="Graphics/grafico_rand.png" width="200px">
 
 Aqui tem-se um gráfico considerando-se apenas o caso do vetor ordenado de forma aleatória. Como observado no primeiro gráfico, que o MinMax3 se comporta o pior em alguns casos, nesse gráfico conseguimos confirmar isso. Sendo ele o pior, enquanto o MinMax2 é o melhor desempenho e o MinMax1, o caso intermdiário.
 
@@ -143,7 +143,7 @@ Aqui tem-se um gráfico considerando-se apenas o caso do vetor ordenado de forma
 Com o vetor crescente, o comportamento esperado e os melhores desempenhos são respectivamente: MinMax3, MinMax2, MinMax1.
 
 - **Médias com vetor decrescente**
-<img src="Graphics/grafico_decrescente.png">
+<img src="Graphics/grafico_decrescente.png" width="200px">
 
 Com o vetor decrescente, o comportamento segue bastante parecido com ele crescente, respeitando o resultado esperado e tendo uma diferença maior ainda entre os tempos. Respectivamente, os melhores desempenhos se mantêm: MinMax3, MinMax2, MinMax1
 
