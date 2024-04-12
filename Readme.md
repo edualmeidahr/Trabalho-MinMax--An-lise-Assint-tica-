@@ -94,19 +94,35 @@ Após isso, dentro de um laço while, é chamado as funções dos MinMax's, orde
 
     E como são 4 tamanhos diferentes de entrada, também serão 4 arquivos desse, um para cada tamanho.
 
+
+<h3><b> Gnuplot </b></h3>
+
+- `Script Geral do gnuplot`
+<img src="img/scrip_gnuplot.png" widht="200px">
+
+Padrão do script utilizado para a criação dos gráficos, fazendo apenas pequenas alterações de um para outro, como por exemplo o tamanho da entrada ou título.
+
+
+## 🎯 Resultados
+Os resultados serão apresentados a seguir por meio de tabelas, nas quais mostra todos os tempos calculados e as médias, também já calculadas e também por meio de gráficos, nos quais é possível ter uma melhor visualização do que acontece e a partir de tal, fazer análises e chegar em algumas conclusões.
+
 <h3><b>Tabelas Excel</b></h3>
 
 - `Tabela MinMax1`
-<img src="img/TabelaMinMax1.png" width="200px">
+<img src="img/TabelaMinMax1.png" width="200px" alt="Tabela MinMax1">
+
 
 - `Tabela MinMax2`
-<img src="img/TabelaMinMax2.png" width="200px">
+<img src="img/TabelaMinMax2.png" width="200px" alt="Tabela MinMax2">
 
 - `Tabela MinMax3`
-<img src="img/TabelaMinMax3.png" width="200px">
+<img src="img/TabelaMinMax3.png" width="200px" alt="Tabela MinMax3">
 
 -`Tabela Médias`
-<img src="img/TabelaMedias.png" widht="200px">
+<img src="img/TabelaMedias.png" widht="200px" alt="Tabela Médias">
+
+As tabelas foram criadas no aplicativo OnlyOffice no formato .ods
+
 
 <h3><b> Gráficos </b></h3>
 Para uma boa análise eu criei gráficos que contém os 3 MinMax's, em alguns cenários:
@@ -114,24 +130,33 @@ Para uma boa análise eu criei gráficos que contém os 3 MinMax's, em alguns ce
 - `Todas as médias`
 <img src="Graphics/grafico_MinMax.png" widht="200px">
 
+    Este primeiro gráfico mostra uma média geral de todas as entradas e todos os tipos de ordenaçao do vetor.
+    Nele é visível que no geral o MiMax3 é o algoritmo que tem o melhor desempenho, seguido do MinMax2 e por último o MinMax1. Contudo, em alguns pontos do gráfico o MinMax3 se apresenta sendo o pior, o que ainda veremos ser o caso quando temos vetor ordenado aleatoriamente.
+
 - `Todas as médias com zoom nas entradas 1.000 e 10.000`
 <img src="Graphics/grafico_MinMax_ate10000.png" widht="200px">
+
+    O mesmo gráfico que o comentado a cima, porém com um maior zoom e foco nas entradas menores.
+    Analisando-o, fica ainda mais evidente e confirma o comentário do gráfico a cima.
 
 - `Médias com vetor randomico`
 <img src="Graphics/grafico_rand.png">
 
+    Aqui tem-se um gráfico considerando-se apenas o caso do vetor ordenado de forma aleatória.
+    Como observado no primeiro gráfico, que o MinMax3 se comporta o pior em alguns casos, nesse gráfico conseguimos confirmar isso. Sendo ele o pior, enquanto o MinMax2 é o melhor desempenho e o MinMax1, o caso intermdiário.
+
 - `Médias com vetor crescente `
 <img src="Graphics/grafico_crescente.png" widht="200px">
 
+    Com o vetor crescente, o comportamento esperado e os melhores desempenhos são respectivamente: MinMax3, MinMax2, MinMax1.
+
 - `Médias com vetor decrescente`
 <img src="Graphics/grafico_decrescente.png">
-
-- `Script Geral do gnuplot`
-<img src="img/scrip_gnuplot.png" widht="200px">
+    Com o vetor descrescente, o comportamento segue bastante parecido com ele crescente, respeitando o resultado esperado e tenho uma diferença maior ainda entre os tempos. Respectivamente, os melhores desemoenhos se manteém: MinMax3, MinMax2, MinMax1
 
 
-## 🎯 Resultados
-Como resultado, temos todas as gerações criadas salvas no arquivo gerações.mps (a quantidade escolhida pelo usuário). Lembrando também que caso tenham duas gerações seguidas iguais, o jogo deve ser encerrado e mostrada uma mensagem na tela. Nesse caso, o jogo terminaria antes do previsto.
+
+
 
 ## ✔️ Conclusão
 Ao final desse projeto, temos que o objetivo foi alcançado, uma vez que foram usados vários conceitos vistos anteriormente no curso, como manipulação de matrizes e de arquivos. Sobre o jogo em si, foi notável que é um jogo muito interessante e, apesar de suas regras simples, é capaz de gerar padrões surpreendentemente complexos e até mesmo simular fenômenos semelhantes aos observados na vida real, como a formação de estruturas estáveis, osciladores e espaçonaves.
