@@ -86,7 +86,7 @@ Foram feitas pequenas modificações, como receber o endereço de memória do ar
 - **Execução:**
     Ao executar o programa ele calcula o tempo gasto pelas funções 10 vezes, e isso é escrito direto em um arquivo .txt:
     
-    <img src="img/arquivo_txt.png" align="center">
+    <img src="img/arquivo_txt.png" align="center" width="500px">
 
     E como são 4 tamanhos diferentes de entrada, também serão 4 arquivos desse, um para cada tamanho.
 
@@ -94,7 +94,7 @@ Foram feitas pequenas modificações, como receber o endereço de memória do ar
 
 - **Script Geral do gnuplot:**
 
-<img src="img/scrip_gnuplot.png" width="400px">
+<img src="img/scrip_gnuplot.png" width="600px">
 
 Padrão do script utilizado para a criação dos gráficos, fazendo apenas pequenas alterações de um para outro, como por exemplo o tamanho da entrada ou título.
 
