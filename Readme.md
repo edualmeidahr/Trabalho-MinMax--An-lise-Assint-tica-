@@ -104,17 +104,17 @@ Os resultados serão apresentados a seguir por meio de tabelas, nas quais mostra
 <h3><b>Tabelas Excel</b></h3>
 
 - **Tabela MinMax1**
-<img src="img/TabelaMinMax1.png" width="200px" alt="Tabela MinMax1">
+<img src="img/TabelaMinMax1.png" width="500px" alt="Tabela MinMax1">
 
 
 - **Tabela MinMax2**
-<img src="img/TabelaMinMax2.png" width="200px" alt="Tabela MinMax2">
+<img src="img/TabelaMinMax2.png" width="500px" alt="Tabela MinMax2">
 
 - **Tabela MinMax3**
-<img src="img/TabelaMinMax3.png" width="200px" alt="Tabela MinMax3">
+<img src="img/TabelaMinMax3.png" width="500px" alt="Tabela MinMax3">
 
 - **Tabela Médias**
-<img src="img/TabelaMedias.png" width="200px" alt="Tabela Médias">
+<img src="img/TabelaMedias.png" width="500px" alt="Tabela Médias">
 
 As tabelas foram criadas no aplicativo OnlyOffice no formato .ods
 
@@ -123,7 +123,7 @@ As tabelas foram criadas no aplicativo OnlyOffice no formato .ods
 Para uma boa análise eu criei gráficos que contêm os 3 MinMax's, em alguns cenários:
 
 - **Todas as médias**
-<img src="Graphics/grafico_MinMax.png" width="200px">
+<img src="Graphics/grafico_MinMax.png" width="500px">
 
 Este primeiro gráfico mostra uma média geral de todas as entradas e todos os tipos de ordenação do vetor. Nele é visível que no geral o MiMax3 é o algoritmo que tem o melhor desempenho, seguido do MinMax2 e por último o MinMax1. Contudo, em alguns pontos do gráfico o MinMax3 se apresenta sendo o pior, o que ainda veremos ser o caso quando temos vetor ordenado aleatoriamente.
 
