@@ -86,7 +86,7 @@ Foram feitas pequenas modificações, como receber o endereço de memória do ar
 - **Execução:**
     Ao executar o programa ele calcula o tempo gasto pelas funções 10 vezes, e isso é escrito direto em um arquivo .txt:
     
-    <img src="img/arquivo_txt.png" align="center" width="500px">
+    <img src="img/arquivo_txt.png" align="center" width="200px">
 
     E como são 4 tamanhos diferentes de entrada, também serão 4 arquivos desse, um para cada tamanho.
 
