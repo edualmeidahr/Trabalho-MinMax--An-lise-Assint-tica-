@@ -18,7 +18,7 @@
 - [Conclusão](#conclusão)
 - [Compilação e Execução](#compilação-e-execução)
 
-## ✒️ Introdução
+## Introdução
 <p align="justify">
     Nesse trabalho é analisado 3 diferentes funções que acham um valor mínimo e máximo em um vetor. Cada uma dessas funções recebe 3 diferentes tipos de vetores:
     - Randomico
@@ -69,7 +69,7 @@
 - **MinMax.hpp:** Criadas a função para cada um dos 3 MinMax's.
 - **MinMax.cpp:** Feita a estruturação das funções criadas no arquivo MinMax.hpp.
 
-## 🔨 Resolução do Problema
+## Resolução do Problema
 <h3><b>Implementando em C++ e Executando</b></h3>
     
 - **Implementação:**
@@ -98,7 +98,7 @@ Foram feitas pequenas modificações, como receber o endereço de memória do ar
 
 Padrão do script utilizado para a criação dos gráficos, fazendo apenas pequenas alterações de um para outro, como por exemplo o tamanho da entrada ou título.
 
-## 🎯 Resultados
+## Resultados
 Os resultados serão apresentados a seguir por meio de tabelas, nas quais mostra todos os tempos calculados e as médias, também já calculadas e também por meio de gráficos, nos quais é possível ter uma melhor visualização do que acontece e a partir de tal, fazer análises e chegar em algumas conclusões.
 
 <h3><b>Tabelas Excel</b></h3>
@@ -147,7 +147,7 @@ Com o vetor crescente, o comportamento esperado e os melhores desempenhos são r
 
 Com o vetor decrescente, o comportamento segue bastante parecido com ele crescente, respeitando o resultado esperado e tendo uma diferença maior ainda entre os tempos. Respectivamente, os melhores desempenhos se mantêm: MinMax3, MinMax2, MinMax1
 
-## ✔️ Conclusão
+## Conclusão
 Considerando-se todas as análises feitas acima, em relação aos três algoritmos, podemos apontar alguns aspectos que merecem uma atenção.
 
 Por mais que os algoritmos tenham sido executados em um mesmo ambiente e máquina, fica evidente que desapontando a teoria, ao executados mais de uma vez, eles nunca terão o mesmo tempo como resposta, e isso deve a várias variáveis, como o próprio Sistema Operacional (SO), condições climáticas ou condições físicas da máquina em geral.
