@@ -59,9 +59,9 @@
     - Os alunos que conseguirem utilizar o gnuplot para plotar os gráficos e disponibilizarem o script utilizado para geração junto com o código no Git receberão 2 pontos de crédito na disciplina.
 
 <div align="center">
-    <img src="img/MinMax1.png" alt="MinMax1">
-    <img src="img/MinMax2.png" alt="MinMax2">
-    <img src="img/MInMax3.png" alt="MinMax3">
+    <img src="img/MinMax1.png" alt="MinMax1" width="400px">
+    <img src="img/MinMax2.png" alt="MinMax2" width="400px">
+    <img src="img/MInMax3.png" alt="MinMax3" width="400px">
 </div>
 
 ## 📄 Arquivos
@@ -76,9 +76,9 @@
     Segue a implementação de cada uma das funções em C++:
 
 <div align="center">
-    <img src="img/MinMax1_implementation.png" alt="MinMax1">
-    <img src="img/MinMax2_implementation.png" alt="MinMax2">
-    <img src="img/MinMax3_implementation.png" alt="MinMax3">
+    <img src="img/MinMax1_implementation.png" alt="MinMax1" width="400px">
+    <img src="img/MinMax2_implementation.png" alt="MinMax2" width="400px">
+    <img src="img/MinMax3_implementation.png" alt="MinMax3" width="400px">
 </div>
 
 Foram feitas pequenas modificações, como receber o endereço de memória do arquivo de saída como parâmetro, e o uso da função clock para retornar o tempo de execução.
