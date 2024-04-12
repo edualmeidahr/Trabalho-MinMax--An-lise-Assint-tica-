@@ -58,11 +58,11 @@
 5. **Pontos extras com gnuplot:**
     - Os alunos que conseguirem utilizar o gnuplot para plotar os gráficos e disponibilizarem o script utilizado para geração junto com o código no Git receberão 2 pontos de crédito na disciplina.
 
-<div align="center">
-    <img src="img/MinMax1.png" alt="MinMax1" width="400px">
-    <img src="img/MinMax2.png" alt="MinMax2" width="400px">
-    <img src="img/MInMax3.png" alt="MinMax3" width="400px">
-</div>
+
+    <img src="img/MinMax1.png" alt="MinMax1" width="500px">
+    <img src="img/MinMax2.png" alt="MinMax2" width="500px">
+    <img src="img/MInMax3.png" alt="MinMax3" width="500px">
+
 
 ## 📄 Arquivos
 - **Main.cpp:** É definido o tamanho da entrada do vetor, e logo depois é feito a randomização para preenchê-lo. Após isso, dentro de um laço while, é chamado as funções dos MinMax's, ordenando em ordem crescente com a função sort e em ordem decrescente com a função reverse.
@@ -75,11 +75,10 @@
 - **Implementação:**
     Segue a implementação de cada uma das funções em C++:
 
-<div align="center">
-    <img src="img/MinMax1_implementation.png" alt="MinMax1" width="400px">
-    <img src="img/MinMax2_implementation.png" alt="MinMax2" width="400px">
-    <img src="img/MinMax3_implementation.png" alt="MinMax3" width="400px">
-</div>
+
+    <img src="img/MinMax1_implementation.png" alt="MinMax1" width="500px">
+    <img src="img/MinMax2_implementation.png" alt="MinMax2" width="500px">
+    <img src="img/MinMax3_implementation.png" alt="MinMax3" width="500px">
 
 Foram feitas pequenas modificações, como receber o endereço de memória do arquivo de saída como parâmetro, e o uso da função clock para retornar o tempo de execução.
 
